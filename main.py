@@ -10,7 +10,7 @@ data
 
 app = FastAPI()
     
-async def predictOutfit(temp: int,rain:int,snow:int): 
+def predictOutfit(temp: int,rain:int,snow:int): 
     data["rain"] = data["rain"].replace("no", 0)
     data["rain"] = data["rain"].replace("yes", 1)
     data["snow"] = data["rain"].replace("no", 0)
@@ -71,7 +71,7 @@ async def root():
 async def weatheradvisor(temp: int,rain:int,snow:int):
     y=predictOutfit(temp,rain,snow)
     message=getMessage(y[0], rain, snow)
-    return {"message": "Hello"}
+    return {"You should wear": message}
    
 if __name__ == '__main__':
     uvicorn.run(app, port=8080, host='0.0.0.0')
