@@ -2,3 +2,5 @@ fastapi
 pytest
 pylint
 uvicorn[standard]
+pandas
+sklearn
