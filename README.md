@@ -16,4 +16,4 @@ http://3.14.66.112:8080/weatheradvisor/60/1/0
 
 Using the following URL to use the Clothing Recommender App:
 
-http://3.14.66.112:8080/weatheradvisor/Temperature/Chance of Rain?/Chance of Snow?
+http://3.14.66.112:8080/weatheradvisor/Temperature/Chance_of_Rain?/Chance_of_Snow?
