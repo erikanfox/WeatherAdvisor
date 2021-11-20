@@ -25,12 +25,12 @@ def predictOutfit(temp: int,rain:int,snow:int):
     clf = DecisionTreeClassifier(criterion="entropy", max_depth=4)
 
     # Train Decision Tree Classifer
-    clf = clf.fit(X_train,y_train)
+    clf = clf.fit(X_train.values,y_train)
 
     #Predict the response for test dataset
-    y_pred = clf.predict(X_test)
+    y_pred = clf.predict(X_test.values)
 
-    # print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+    print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
     y_pred = clf.predict([[temp,rain,snow]])
     #print the predicted outfit code
