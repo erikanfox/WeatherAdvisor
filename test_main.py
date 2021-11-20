@@ -16,4 +16,4 @@ snow=random.randint(0, 1)
 y=predictOutfit(temp,rain,snow)
 assert isinstance(y[0], np.int64)
 message= getMessage(y[0],rain,snow)
-assert "You should wear" in message
+assert "shirt" in message
