@@ -6,7 +6,6 @@ from fastapi import FastAPI
 import uvicorn
 
 data = pd.read_csv("clothing_weather.csv")
-data
 
 app = FastAPI()
     
