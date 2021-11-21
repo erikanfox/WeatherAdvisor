@@ -12,8 +12,8 @@ The service uses a decision tree to generate the outfit advised from a data set 
 ## How it Works
 Our app works by entering the URL below and adding the termperature (in F), whether there is a chance of rain, and whether there is a chance of snow. The temperature is entered as an integer, while the chances of rain or snow is entered as either 0 (for no) or 1 (for yes). The following is an example URL to produce recommended clothing for when it is 60 F, there is a chance of rain, and no chance of snow.
 
-http://3.14.66.112:8080/weatheradvisor/60/1/0
+https://mi6q9vhkh7.us-east-2.awsapprunner.com/weatheradvisor/60/1/0
 
 Using the following URL to use the Clothing Recommender App:
 
-http://3.14.66.112:8080/weatheradvisor/Temperature/Chance_of_Rain?/Chance_of_Snow?
+https://mi6q9vhkh7.us-east-2.awsapprunner.com/weatheradvisor/Temperature/Chance_of_Rain?/Chance_of_Snow?
