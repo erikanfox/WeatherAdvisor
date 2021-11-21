@@ -1,3 +1,5 @@
+[![Python 3.8](https://github.com/erikanfox/WeatherAdvisor/actions/workflows/main.yml/badge.svg)](https://github.com/erikanfox/WeatherAdvisor/actions/workflows/main.yml)
+
 # Weather Advisor
 
 Do you every wonder what the whether is like when picking out clothes? With our app this will never happen again!
