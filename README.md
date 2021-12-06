@@ -10,6 +10,7 @@ In the mornings it can often be challenging to decide what to wear. There are so
 
 ## Project Outline
 The service uses a decision tree to generate the outfit advised from a data set we generated. The data is generated based off of outfits that we have worn in different types of weather. It is stored both locally, as well as, in github. Continous delivery is being performed on the application using AWS App Runner, while continuous integration runs using GitHub Actions.
+![Word Cloud](/Images/Flowchart.png)
 
 ## How it Works
 Our app works by entering the URL below and adding the termperature (in F), whether there is a chance of rain, and whether there is a chance of snow. The temperature is entered as an integer, while the chances of rain or snow is entered as either 0 (for no) or 1 (for yes). The following is an example URL to produce recommended clothing for when it is 60 F, there is a chance of rain, and no chance of snow.
